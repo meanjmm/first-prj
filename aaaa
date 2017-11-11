@@ -1,0 +1,267 @@
+    1   npm install http-server -g
+    2  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016\06 Errors  Debugging\attached_files\069 Debugging with the Browser Developer Tools
+    3  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016ls
+    4  pwd
+    5   npm install http-server -g
+    6  pwd
+    7  cd /
+    8  ls
+    9  ls
+   10  ls -al | more
+   11  ls -al 
+   12  cd Desktop/
+   13  dir
+   14  ls
+   15  ls -al
+   16  ls
+   17  cd toto
+   18  pwd
+   19  ls
+   20  cd ls
+   21  cd toto.lnk 
+   22  cd Desktop/test/
+   23   npm install http-server -g
+   24  http-server
+   25  ls
+   26  cd public/
+   27  cd ..
+   28  grep -i 
+   29  exit
+   30  cd Desktop/test/
+   31  cd first-prj/
+   32  pwd
+   33  npm init
+   34  ls -al
+   35  more package.json 
+   36  cat package.json 
+   37  ls -alrte
+   38  ls -altr
+   39  rm package.json 
+   40  npm init
+   41  npm init
+   42  ls -altr
+   43  cat package.json 
+   44  npm install jquery --save
+   45  cat package
+   46  cat package.json 
+   47  ls -altr
+   48  cd node_modules/
+   49  ls -alte
+   50  la -altr
+   51  ls -altr
+   52  clear
+   53  ls -altr
+   54  cd jquery/
+   55  ls
+   56  cat bower.json 
+   57  cat package.json 
+   58  pwd
+   59  cd ../../
+   60  pwd
+   61  ls
+   62  ls -altr
+   63  npm install normalized.css --save
+   64  ls -alre
+   65  ls -altr
+   66  cat package.json 
+   67  npm install normalize.css --save
+   68  ls -altr
+   69  cat package.json 
+   70  ls
+   71  clear
+   72  ls
+   73  ls -altr
+   74  npm install gulp-cli --global
+   75  gul[
+   76  gulp
+   77  gulp -v
+   78  npm install gulp --save-dev
+   79  ls -al
+   80  \\\; 
+   81  gilp
+   82  gulp
+   83  gulp -v
+   84   #jola
+   85  #fffff
+   86  ls
+   87  ls -altr
+   88  cd node_modules/
+   89  ls
+   90  ls -altr
+   91  cd ..
+   92  ls
+   93  pwd
+   94  ls
+   95  rm node_modules/
+   96  rm -rf node_modules/
+   97  ls
+   98  cd ..
+   99  cd ..
+  100  cd ..
+  101  npm install gulp-cli --global
+  102  cd Desktop/test/
+  103  ls
+  104  cd first-prj/
+  105  ls
+  106  ls -alrt
+  107  npm install
+  108  ls -altr
+  109  cd node_modules/
+  110  ls
+  111  ls -altr
+  112  cd ..
+  113  ls
+  114  cat package
+  115  cat package.json 
+  116  ls -altr
+  117  rm package-lock.json 
+  118  ls
+  119  rm -rf node_modules/
+  120  cd app/
+  121  ls
+  122  ls -altr
+  123  cd ..
+  124  ls -altr
+  125  cd .git
+  126  ls -altr
+  127  cd ..
+  128  ls
+  129  pwd
+  130  cat package.json 
+  131  npm install
+  132  ls 
+  133  ls -al
+  134  cd node_modules/
+  135  ls
+  136  pwd
+  137  cd ..
+  138  rm -rf node_modules/ package-lock.json  package.json 
+  139  ls -altr
+  140  npm init
+  141  ls -al
+  142  npm install jquery --save
+  143  ls -alttr
+  144  cat package.json 
+  145  npm install normalize --save
+  146  ls -alre
+  147  ls -altr
+  148  cat package.json 
+  149  ls
+  150  ls -alrt
+  151  ls
+  152  rm -rf node_modules/
+  153  cd package-lock.json 
+  154  rm package-lock.json 
+  155  rm -rf package.json 
+  156  ls
+  157  ls -alre
+  158  ls -altr
+  159  ls -altr
+  160  npm init
+  161  rm -rf package.json 
+  162  npm init
+  163  npm install jquery --save
+  164  ls -al
+  165  cd node_modules/
+  166  ls
+  167  s 
+  168  ls -l
+  169  cd ..
+  170  npm install normalize.css --save
+  171  ls -alrt
+  172  cd $home
+  173  pwd
+  174  ls -altr
+  175  cd Desktop/test/
+  176  ls
+  177  cd first-prj/
+  178  ls
+  179  clear
+  180  ls
+  181  ls -l
+  182  ls -altr
+  183  cd node_modules/
+  184  ls
+  185  ls -altr
+  186  cd ..
+  187  ls
+  188  ls -altr
+  189  git status
+  190  git add =A
+  191  git add -A
+  192  ls -altr
+  193  git status
+  194  git push origin master
+  195  git status
+  196  gulp
+  197  cd $home
+  198  gulp
+  199  cd Desktop/test/
+  200  cd first-prj/
+  201  gulp
+  202  npm install gulp --save-dev
+  203  ls
+  204  rm -rf node_modules/
+  205  ls
+  206  ls -al
+  207  rm package-lock.json 
+  208  cd $homr
+  209  cd $home
+  210  l
+  211  ls
+  212  ls
+  213  ls -al
+  214  cd
+  215  pwd
+  216  npm install gulp-cli --global
+  217  cd Desktop/
+  218  cd test/first-prj/
+  219  ls
+  220  ls -alr
+  221  npm install
+  222  ls -altr
+  223  cd node_modules/
+  224  ls
+  225  ls
+  226  cd ..
+  227  rm -rf node_modules/ package-lock.json  package.json 
+  228  pwd
+  229  ls -al
+  230  ls
+  231  clear
+  232  gulp
+  233   npm init
+  234  npm install jquery --save
+  235  npm install normalize.css --save
+  236  npm install gulp --save-dev
+  237  la
+  238  ls
+  239  ls
+  240  gulp
+  241  ls
+  242  ls
+  243  gulp
+  244  gulp
+  245  ls -altr
+  246  pwd
+  247  gulp install gulp-watch -save-dev
+  248  npm install gulp-watch -save-dev
+  249  ls -altr
+  250  gulp html
+  251  clear
+  252  ls -altr
+  253  gulp watch
+  254  gulp watch
+  255  gulp watch
+  256  gulp watch
+  257  gulp watch
+  258  gulp styles
+  259  gulp watch
+
+
+    npm install gulp-postcss --save-dev
+    npm install autoprefixer --save-dev
+    npm install postcss-simple-vars  --save-dev
+    npm install postcss-nested  --save-dev
+    gulp watch
+

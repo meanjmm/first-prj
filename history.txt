@@ -1,0 +1,109 @@
+    1   npm install http-server -g
+    2  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016\06 Errors  Debugging\attached_files\069 Debugging with the Browser Developer Tools
+    3  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016ls
+    4  pwd
+    5   npm install http-server -g
+    6  pwd
+    7  cd /
+    8  ls
+    9  ls
+   10  ls -al | more
+   11  ls -al 
+   12  cd Desktop/
+   13  dir
+   14  ls
+   15  ls -al
+   16  ls
+   17  cd toto
+   18  pwd
+   19  ls
+   20  cd ls
+   21  cd toto.lnk 
+   22  cd Desktop/test/
+   23   npm install http-server -g
+   24  http-server
+   25  ls
+   26  cd public/
+   27  cd ..
+   28  grep -i 
+   29  exit
+   30  cd Desktop/test/public/
+   31  ls
+   32  ls -l
+   33  ls -al
+   34  ls -altr
+   35  git --version
+   36  who am i
+   37  git config ==global user.name "Jose"
+   38  cd ..
+   39  git config ==global user.name "Jose"
+   40  git config --global user.name "Jose"
+   41  git config --global user.email "meanjmm@gmail.com"
+   42  git config
+   43  cd public/
+   44  rm -rf .git
+   45  cd ..
+   46  ls
+   47  pwd
+   48  pwd
+   49  ls
+   50  ls -altr
+   51  cd public/
+   52  ls -altr
+   53  ls
+   54  cd p
+   55  cd pu
+   56  ls
+   57  ls -altr
+   58  touch toto
+   59  git status
+   60  rm toto
+   61  git init
+   62  touch toto
+   63  git status
+   64  ls
+   65  cd ..
+   66  ls
+   67  ;s
+   68  ld
+   69  ld
+   70  ls
+   71  git clone https://github.com/LearnWebCode/travel-site-files.git
+   72  ls -altr
+   73  cd travel-site-files/
+   74  ls -altr
+   75  cd app/
+   76  ls
+   77  ls -altr
+   78  ls
+   79  pwd
+   80  cd ..
+   81  cd ..
+   82  pwd
+   83  ls -altr
+   84  rename travel-site-files/ first-prj
+   85  mv travel-site-files/ first-prj
+   86  ls -altr
+   87  cd first-prj/
+   88  ls -altr
+   89  git remote -v
+   90  git  remote set-url origin https://github.com/meanjmm/first-prj.git
+   91  git remote -v
+   92  git push origin master  
+   93   git status
+   94  git add =A
+   95   git status
+   96  git commit -m 'Added new metakewords.'
+   97  git push origin master
+   98  git -help -A
+   99  git add =A
+  100  git -help add
+  101  git add -help
+  102  git add -all
+  103  git add --all
+  104   git status
+  105  git commit -m 'Added new metakewords.'
+  106  git push origin master
+  107  h
+  108  history
+  109  history >> history.txt
