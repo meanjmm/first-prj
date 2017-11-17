@@ -21,7 +21,7 @@ const   gulp            = require('gulp'),
 
         watch('./app/assets/**/*.css', () => {
             gulp.start('styles');
-        }); 
+        });
 
     });
 

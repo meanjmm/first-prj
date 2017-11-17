@@ -1,0 +1,63 @@
+.row {
+
+    /*background-color: yellow;*/
+    /*text-align: center;*/
+    /*margin-right: 2em;*/
+    /*margin-left: 2em;*/
+
+
+
+@mixin clearfix;
+
+    &--gutters  {
+        margin-right: -60px;
+        /*background-color: yellow;*/
+        /*box-sizing: border-box;*/
+
+     }
+
+    &--gutters > div {
+         padding-right: 60px;
+    }
+
+     &__medium_4 {
+          width: 100%;
+      }
+
+     &__b-margin-until-medium {
+         margin-bottom: 1rem;
+     }
+
+
+
+     @mixin atMedium {
+
+         &__medium-4 {
+            float: left;
+            width: 33.33
+            /*margin: auto;*/
+            /*display: block;*/
+         }
+
+         &__medium-8 {
+              float: left;
+              width: 66.66%;
+          }
+
+         &__medium-4--larger {
+              width: 45%;
+
+          }
+
+          &__medium-8--smaller {
+               width: 55%;
+          }
+          &__b-margin-until-medium {
+                margin-bottom: 0;
+           }
+
+
+     }
+
+
+}
