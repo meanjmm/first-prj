@@ -265,3 +265,119 @@
     npm install postcss-nested  --save-dev
     gulp watch
 
+    1   npm install http-server -g
+    2  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016\06 Errors  Debugging\attached_files\069 Debugging with the Browser Developer Tools
+    3  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016ls
+    4  pwd
+    5   npm install http-server -g
+    6  pwd
+    7  cd /
+    8  ls
+    9  ls
+   10  ls -al | more
+   11  ls -al 
+   12  cd Desktop/
+   13  dir
+   14  ls
+   15  ls -al
+   16  ls
+   17  cd toto
+   18  pwd
+   19  ls
+   20  cd ls
+   21  cd toto.lnk 
+   22  cd Desktop/test/
+   23   npm install http-server -g
+   24  http-server
+   25  ls
+   26  cd public/
+   27  cd ..
+   28  grep -i 
+   29  exit
+   30  cd Desktop/test/first-prj/
+   31  ls
+   32  ls -altr
+   33  cd 
+   34  pwd
+   35  cd Desktop/test/first-prj/
+   36  ls
+   37  ls -alrt
+   38  clear
+   39  git branch
+   40  git status
+   41  git add -A
+   42  git status
+   43  git commit -m 'Completed large hero block and intro content block'
+   44  git status
+   45  git branch count-to-ten
+   46  git branch
+   47  git checkout count-to-ten
+   48  git branch
+   49  git status
+   50  git add app/index.html 
+   51  git status
+   52  git status
+   53  git commit -m 'Counted to 4'
+   54  git status
+   55  git branch
+   56  git checkout master
+   57  git branch
+   58  git checkout count-to-ten
+   59  git branch
+   60  git status
+   61  git add app/index.html 
+   62  git status
+   63  git commit -m 'Counted to 7'
+   64  git status
+   65  git status
+   66  git add app/index.html 
+   67  git status
+   68  git commit -m 'Completed the count to 10'
+   69  git status
+   70  git branch
+   71  git checkout master
+   72  git branch
+   73  git merge count-to-ten
+   74  git push origin master
+   75  git branch
+   76  git branch count-to-fifteen
+   77  git branch
+   78  git checkout count-to-fifteen
+   79  git branch
+   80  git  status
+   81  git add app/index.html 
+   82  git  status
+   83  git commit -m 'Completed the count to 15'
+   84  git push origin count-to-fifteen
+   85  git  status
+   86  git add app/index.html 
+   87  git  status
+   88  git commit -m 'Completed the count to 18'
+   89  git push origin count-to-eighteen
+   90  git branch
+   91  git commit -m 'Completed the count to 18'
+   92  git branch
+   93  git branch
+   94  git  status
+   95  git add app/index.html 
+   96  git commit -m 'Completed the count to 20'
+   97  git branch count-to-twenty
+   98  git branch
+   99  git push origin count-to-twenty
+  100  git checkout master
+  101  git branch
+  102   git pull origin master
+  103  git branch
+  104  git branch -d count-to-fifteen
+  105  git branch
+  106  git branch -d count-to-ten
+  107  git branch
+  108  git branch -d count-to-twenty
+  109  git branch
+  110  git status
+  111  git status
+  112  git add app/index.html 
+  113  git status
+  114  git push origin master
+  115  git status
+  116  history >> ~/Desktop/test/first-prj/aaaa 
