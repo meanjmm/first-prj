@@ -1,8 +1,9 @@
 .generic-content-container {
     p {
+        font-weight: 300px;
         line-height: 1.65em;
         font-size: 0.9rem;
-        margin: 1.8rem 0rem;
+        margin: 0 0 1.8rem 0rem;
 
         @mixin atSmall {
             font-size: 1.125rem;
