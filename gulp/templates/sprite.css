@@ -1,0 +1,10 @@
+/*This is done from my gulp icons task*/
+
+{{#shapes}}
+    .icon--{{base}} {
+        width: {{width.outer}}px;
+        height:{{height.outer}}px;
+        background-image: url('./app/assets/temp/sprite/css/{{{sprite}}}');
+        background-position: {{position.relative.xy}};
+}
+{{/shapes}}
