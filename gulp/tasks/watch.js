@@ -21,6 +21,8 @@ const   gulp            = require('gulp'),
 
         watch('./app/assets/**/*.css', () => {
             gulp.start('styles');
+            browserSync.reload();
+
         });
 
         watch('./app/assets/scripts/**/*.js', () => {
