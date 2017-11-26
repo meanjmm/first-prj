@@ -3,7 +3,10 @@
 
 
     &--pull-right {
-         float: right;
+
+        @mixin atMedium {
+            float: right;
+        }
      }
 
     ul {
@@ -14,16 +17,32 @@
 
     li {
         list-style: none;
-        float: left;
-        padding-right: 20px;
+        padding-right: 5px;
+        display: inline-block; /* horizontally center */
+
+        @mixin atMedium {
+            float: left;
+            display: block;
+            padding-right: 20px;
+        }
     }
 
     a {
         color: #FFF;
         text-decoration: none;
-        font-weight: 200;
+        font-weight: 600;
         display: block;
-        padding: 12px 0;
+        padding: 8px 0;
+        margin-top: 10px;
+        background-color: rgba($mainBlue, .7);
+
+        @mixin atMedium {
+            font-weight: 200;
+            padding: 0;
+            margin-top: 12px;
+            background-color: rgba($mainBlue, .0);
+        }
+
 
     }
 

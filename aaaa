@@ -381,3 +381,68 @@
   114  git push origin master
   115  git status
   116  history >> ~/Desktop/test/first-prj/aaaa 
+    1   npm install http-server -g
+    2  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016\06 Errors  Debugging\attached_files\069 Debugging with the Browser Developer Tools
+    3  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016ls
+    4  pwd
+    5   npm install http-server -g
+    6  pwd
+    7  cd /
+    8  ls
+    9  ls
+   10  ls -al | more
+   11  ls -al 
+   12  cd Desktop/
+   13  dir
+   14  ls
+   15  ls -al
+   16  ls
+   17  cd toto
+   18  pwd
+   19  ls
+   20  cd ls
+   21  cd toto.lnk 
+   22  cd Desktop/test/
+   23   npm install http-server -g
+   24  http-server
+   25  ls
+   26  cd public/
+   27  cd ..
+   28  grep -i 
+   29  exit
+   30   cd Desktop/test/first-prj/
+   31  clear
+   32  ls
+   33  ls -altr
+   34  pwd
+   35  grep -i branch aaaa 
+   36  grep -i checkout aaaa 
+   37  git checkout master
+   38  git branch
+   39  gulp watch
+   40  grep merge aaaa 
+   41  git merge header
+   42  git branch
+   43  git status
+   44  git commit -m 'header complete '
+   45  cat aaaa 
+   46   git add -A
+   47  git status
+   48  git commit -m 'header complete '
+   49  git status
+   50  grep push aaaa 
+   51  git push origin master
+   52  git status
+   53  ls
+   54  clear
+   55  ls
+   56  gulp watch
+   57  git branch babel
+   58  git branch
+   59  git checkout babel
+   60  pwd
+   61  git branch
+   62  pwd
+   63  npm install babel-core babel-loader babel-preset-es2015 --save-dev
+   64  history
+   65  history >> aaaa 
