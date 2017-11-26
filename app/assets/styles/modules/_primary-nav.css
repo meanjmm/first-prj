@@ -29,12 +29,15 @@
 
     a {
         color: #FFF;
+        /*font-size: 1rem;*/
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 450;
         display: block;
         padding: 8px 0;
         margin-top: 10px;
-        background-color: rgba($mainBlue, .7);
+        padding-left: 3px;
+        padding-right: 3px;
+        background-color: rgba($mainBlue, .8);
 
         @mixin atMedium {
             font-weight: 200;

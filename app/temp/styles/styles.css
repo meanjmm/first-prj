@@ -1299,12 +1299,15 @@ a {
 
 .primary-nav a {
         color: #FFF;
+        /*font-size: 1rem;*/
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 450;
         display: block;
         padding: 8px 0;
         margin-top: 10px;
-        background-color: rgba(47,85,114, .7);
+        padding-left: 3px;
+        padding-right: 3px;
+        background-color: rgba(47,85,114, .8);
 
 
     }
