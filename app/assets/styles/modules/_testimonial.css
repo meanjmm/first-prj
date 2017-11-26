@@ -1,13 +1,17 @@
 .testimonial {
-    /*background-color: orangered;*/
 
     background-color: rgba(255, 255, 255, .8);
-    padding: 0 18px 1px 18px;
+    padding: 0 5px 1px 5px;
+
     margin-bottom: 98px;
+/*background-color: orangered;*/
+
+
 
     @mixin atMedium {
         margin-bottom: 0px;
         padding: 0 1.8125rem 1px 1.8125rem;
+
     }
 
     &__photo {
@@ -26,7 +30,7 @@
         text-align: center;
         font-size: 1.5rem;
         font-weight: 500;
-        margin: 0;
+        /*margin: 0;*/
       }
 
       &__subtitle {

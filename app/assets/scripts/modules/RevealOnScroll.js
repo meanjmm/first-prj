@@ -17,13 +17,13 @@ class RevealOnScroll {
         var that = this.offsetPercentage;
         this.itemsToReveal.each(function () {
             var currentItem = this;
+            $(currentItem).removeClass("reveal-item--is-visible");
             new Waypoint({
                 element: currentItem,
                 handler: function () {
                     $(currentItem).addClass("reveal-item--is-visible");
                 },
                 offset: that
-
             });
         });
     }

@@ -446,3 +446,86 @@
    63  npm install babel-core babel-loader babel-preset-es2015 --save-dev
    64  history
    65  history >> aaaa 
+    1   npm install http-server -g
+    2  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016\06 Errors  Debugging\attached_files\069 Debugging with the Browser Developer Tools
+    3  cd G:\PapaData\Mobil2017\01 JavaScript\javascript-bootcamp-2016ls
+    4  pwd
+    5   npm install http-server -g
+    6  pwd
+    7  cd /
+    8  ls
+    9  ls
+   10  ls -al | more
+   11  ls -al 
+   12  cd Desktop/
+   13  dir
+   14  ls
+   15  ls -al
+   16  ls
+   17  cd toto
+   18  pwd
+   19  ls
+   20  cd ls
+   21  cd toto.lnk 
+   22  cd Desktop/test/
+   23   npm install http-server -g
+   24  http-server
+   25  ls
+   26  cd public/
+   27  cd ..
+   28  grep -i 
+   29  exit
+   30  cd Desktop/test/first-prj/
+   31  clear
+   32  ls
+   33  gulp watch
+   34  git branch
+   35  grep push aaaa 
+   36  history 
+   37  grep push aaaa 
+   38  git status
+   39  git add -A
+   40  git status
+   41  grep commit aaaa 
+   42  git commit -m 'menu icon complested'
+   43  git status
+   44  grep push aaaa 
+   45  git push origin master
+   46  gulp watch
+   47  git status
+   48  git add -A
+   49  git status
+   50  git commit -m 'menu icon completed for both mobil and desktop Application'
+   51  git status
+   52  git push origin master
+   53  git status
+   54  grep checkout aaaa 
+   55  grep "59  git" aaaa 
+   56  grep branch aaaa 
+   57  git branch reveal-on-scroll 
+   58  git checkout reveal-on-scroll
+   59  git  branch
+   60  gulp watch
+   61  clear
+   62  npm install waypoints --save
+   63  gulp watch
+   64  gulp watch
+   65  gulp watch
+   66  clear
+   67  gulp watch
+   68  gulp watch
+   69  gulp watch
+   70  clear
+   71  git status
+   72  git add -A
+   73  git status
+   74  git commit -m 'Completed the reveal on scroll behavior.'
+   75  git status
+   76  git checkout master
+   77  git merge reveal-on-scroll
+   78  git branch
+   79  git push origin master
+   80  clear
+   81  git status
+   82  git checkout -b sticky-header
+   83  history >> aaaa 

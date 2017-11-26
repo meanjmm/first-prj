@@ -29,24 +29,28 @@
 
     a {
         color: #FFF;
-        /*font-size: 1rem;*/
+        /*font-size: 1rem;                                        */
         text-decoration: none;
-        font-weight: 450;
+        /*font-weight: 450;                                       */
         display: block;
-        padding: 8px 0;
-        margin-top: 10px;
-        padding-left: 3px;
-        padding-right: 3px;
-        background-color: rgba($mainBlue, .8);
+        padding: 8px 0;                                  /* 8px 0 */
+        /*margin-top: 10px;                                       */
+        /*padding-left: 3px;*/
+        /*padding-right: 3px;*/
+        background-color: rgba($mainBlue, .5);              /* .8 */
 
         @mixin atMedium {
-            font-weight: 200;
-            padding: 0;
-            margin-top: 12px;
-            background-color: rgba($mainBlue, .0);
+            /*font-weight: 200;                                    */
+            /*padding: 0;                                          */
+            /*margin-top: 12px;                                    */
+
+            padding: 12px 0;
+            /*background-color: rgba($mainBlue, .0);               */
+            background-color: transparent;
+
+            &.is-current-link {
+                color: #fabb69;
+             }
         }
-
-
     }
-
 }

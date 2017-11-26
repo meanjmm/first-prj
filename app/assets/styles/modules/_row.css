@@ -1,5 +1,6 @@
 .row {
 
+
     @mixin clearfix;
 
 
@@ -10,10 +11,20 @@
 
     &--gutters  {
         margin-right: -65px;
+
+
+         /*margin-left: 30px;*/
+         /*margin-right: -20px;*/
+         /*padding: 0;*/
+
      }
 
      &--gutters-small {
-          margin-right: -45px;
+          /*margin-right: -45px;*/
+
+          /*margin-left: 30px;*/
+          /*margin-right: -20px;*/
+          /*padding: 0;*/
       }
 
     &--gutters-large {
@@ -22,16 +33,18 @@
 
     &--gutters > div {
          padding-right: 65px;
-         padding-right: 0px;
+         /*padding-right: 0px;*/
      }
 
     &--gutters-small > div {
          padding-right: 45px;
-         /*padding-right: 0px;*/
+         /*padding: 0px;*/
      }
 
     &--gutters-large > div {
          padding-right: 100px;
+         /*padding: 0px;*/
+
      }
 
 
