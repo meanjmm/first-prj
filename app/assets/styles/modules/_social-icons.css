@@ -1,0 +1,32 @@
+.social-icons {
+    text-align: center;
+    z-index: -1;
+
+&__bg {
+     background-color: rgba($myOrange, .93);
+     display: inline-block;
+     margin: 0 5px;
+     width: 55px;
+     height: 55px;
+     z-index:1;
+ }
+
+&__icon {
+     background-color: rgba($myOrange, .93);
+     position: relative;
+     display: inline-block;
+     margin: 0px 5px;
+     width: 33%;
+     height: 44px;
+     z-index:2;
+ }
+
+  .icon {
+      display: block;
+
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-60% -50%);
+  }
+}

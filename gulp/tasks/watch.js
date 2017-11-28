@@ -28,9 +28,7 @@ const   gulp            = require('gulp'),
         watch('./app/assets/scripts/**/*.js', () => {
             gulp.start('scriptsRefresh');
         });
-
     });
-
 
     gulp.task('cssInject', ['styles'], () => {
         return gulp.src('./app/temp/styles/styles.css')

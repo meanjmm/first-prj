@@ -10346,6 +10346,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modules_StickyHeader__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modules_Modal__ = __webpack_require__(7);
+
 
 
 
@@ -10356,6 +10358,7 @@ const mobilMenu = new __WEBPACK_IMPORTED_MODULE_0__modules_MobilMenu__["a" /* de
 new __WEBPACK_IMPORTED_MODULE_1__modules_RevealOnScroll__["a" /* default */](__WEBPACK_IMPORTED_MODULE_2_jquery___default()(".feature-item"), "85%");
 new __WEBPACK_IMPORTED_MODULE_1__modules_RevealOnScroll__["a" /* default */](__WEBPACK_IMPORTED_MODULE_2_jquery___default()(".testimonial"), "55%");
 const stickyheader = new __WEBPACK_IMPORTED_MODULE_3__modules_StickyHeader__["a" /* default */]();
+var modal = new __WEBPACK_IMPORTED_MODULE_4__modules_Modal__["a" /* default */]();
 
 
 /***/ }),
@@ -10920,6 +10923,83 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 }));
 
 
+
+/***/ }),
+/* 7 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
+
+
+
+class Modal {
+
+    //---------------------------------------
+    // 1- Selecting elements from the DOM
+    //---------------------------------------
+
+    constructor() {
+        this.openModalButton    = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".open-modal");
+        this.modal               = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".modal");
+        this.closeModalButton   = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".modal__close");
+        this.events();
+    }
+
+    //---------------------------------------
+    // 2- Event Handling
+    //---------------------------------------
+
+    events() {
+
+        // this.openModalButton.click(this.openModal.bind(this));
+        // this.openModalButton.click(this.openModal());
+        this.openModalButton.click(() => {
+            this.openModal()
+        });
+
+        // clicking the X close modal button.
+        // this.closeModalButton.click(this.closeModal.bind(this));
+        this.closeModalButton.click(() => {
+            this.closeModal()
+        });
+
+        // Clicking the ESC key
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).keyup((e)=> {
+            this.keyPressHandler(e)
+        });
+    }
+    //---------------------------------------
+    // 3- Defining functionality
+    //---------------------------------------
+
+    keyPressHandler(e) {
+        // alert(e.keyCode);
+        if (e.keyCode == 27){
+            this.closeModal();
+        }
+    }
+
+
+    openModal() {
+        // alert('openModal');
+        this.modal.addClass("modal--is-visible");
+        // return fail to prevent the page going to the top
+        // after clicking a link with # sign.
+        return false;
+    }
+
+    closeModal() {
+        // alert('openModal');
+        this.modal.removeClass("modal--is-visible");
+    }
+
+
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (Modal);
 
 /***/ })
 /******/ ]);
